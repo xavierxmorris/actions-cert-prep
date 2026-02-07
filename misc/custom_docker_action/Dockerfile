@@ -1,5 +1,5 @@
 # Use an official lightweight Python runtime as a parent image
-FROM python:3.9-slim
+FROM python:3.14.3-slim
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
